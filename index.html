@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <center>
+            <div class="container">
+                <h1>Today's Task</h1>
+                <form action="" id="to-do-form">
+                    <input type="text" id="task-name" placeholder="e.g. buy groceries" autofocus>
+                    <button type="submit">Add task</button>
+                </form>
+            </div>
+        </center>
+        
+    </header>
+
+
+    <section id="content">
+        <center>
+            <div class="container" id="status">
+                <div class="table">
+                    <ul class="stats" id="horizontal-list">
+                        <li>
+                            <span>remaining</span>
+                            <span id="remaining-task">0</span>
+                        </li>
+                        <li>
+                            <span>completed</span>
+                            <span id="completed-task">0</span>
+                        </li>
+                        <li>
+                            <span>total</span>
+                            <span id="total-task">0</span>
+                        </li>
+                    </ul>
+                </div>
+                
+    
+                <ul class="todolist">
+                    <li>
+                        <div><input type="checkbox" name="tasks" id="1">
+                            <span>task 1</span> 
+                        </div>
+                        <button title="remove task" class="remove-button">
+                            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/x-512.png" id="xbutton">
+                        </button>
+                    </li>
+    
+                    <li>
+                        <div><input type="checkbox" name="tasks" id="1">
+                            <span>task 2</span> 
+                        </div>
+                        <button title="remove task" class="remove-button">
+                            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/x-512.png" id="xbutton">
+                        </button>
+                    </li>
+    
+                    <li>
+                        <div><input type="checkbox" name="tasks" id="1">
+                            <span>task 3</span> 
+                        </div>
+                        <button title="remove task" class="remove-button">
+                            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/x-512.png" id="xbutton">
+                        </button>
+                    </li>
+    
+                    
+                </ul>
+            </div>
+        </center>
+        
+    </section>
+</body>
+</html> 
