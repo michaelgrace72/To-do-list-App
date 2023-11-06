@@ -1,18 +1,64 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #main-header{
     background-color:  	#011f4b;
+    padding: 20px;
+
 }
 
+#main-header > div{
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 500px;
+    text-align: center;
+}
+
+
+
+h1{
+    color: white;
+}
+
+
 #content{
+    position: fixed;
+    width: 100%;
+    height: 100%;
     background-color:  	#b3cde0;
 }
+
+.stats{
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.stats > li{
+    text-align: center;
+}
+
 li {
     list-style: none;
 }
+
+.todolist > li{
+    padding: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: grid;  
+    grid-template-columns: 280px 20px;
+    border: 1px solid black;
+}
+
+
 img{
     width: 16px;
     height: 16px;
