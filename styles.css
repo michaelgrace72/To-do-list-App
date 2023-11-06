@@ -5,7 +5,7 @@
 }
 
 #main-header{
-    background-color:  	#011f4b;
+    background-color:  	#323632;
     padding: 20px;
 
 }
@@ -19,7 +19,6 @@
 }
 
 
-
 h1{
     color: white;
 }
@@ -29,7 +28,8 @@ h1{
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color:  	#b3cde0;
+    background-color:  	#a9a97d;
+
 }
 
 .stats{
@@ -42,20 +42,58 @@ h1{
 }
 
 .stats > li{
-    text-align: center;
+    color: white;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+    margin-left: 4px;
+
 }
+
+#remaining{
+    padding: 2px;
+    background-color:  #73715c;
+}
+
+#task-count{
+    padding: 2px;
+    text-align: center;
+    background-color: #4e4e58;
+}
+
+
 
 li {
     list-style: none;
 }
 
-.todolist > li{
+
+.todolist{
+    
+}
+.todolist li{
+    background-color: #cdcecf;
     padding: 10px;
-    max-width: 300px;
+    max-width: 600px;
     margin: 0 auto;
-    display: grid;  
-    grid-template-columns: 280px 20px;
+    display: flex;  
     border: 1px solid black;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.todolist li div{
+    align-items: center;
+}
+
+.todolist li button{
+
 }
 
 
