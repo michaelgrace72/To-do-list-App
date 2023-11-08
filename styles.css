@@ -59,7 +59,7 @@ h1{
     background-color:  #73715c;
 }
 
-#task-count{
+.stats2{
     padding: 2px;
     text-align: center;
     background-color: #4e4e58;
@@ -95,6 +95,6 @@ img{
 
 button.remove-button{
     width: 20px;
-    height: 20px;
+    height: 20px; 
 }
 
