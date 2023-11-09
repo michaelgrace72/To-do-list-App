@@ -54,7 +54,7 @@ h1{
 
 }
 
-#remaining{
+.stats1{
     padding: 2px;
     background-color:  #73715c;
 }
@@ -65,16 +65,16 @@ h1{
     background-color: #4e4e58;
 }
 
-
-
 li {
     list-style: none;
 }
 
-
-.todolist{
-    
+.todolist li.complete{
+    background-color: #a2a3a3;
+    text-decoration-line: line-through;
+    color: #4e4e58;   
 }
+
 .todolist li{
     background-color: #cdcecf;
     padding: 10px;
@@ -88,15 +88,6 @@ li {
     align-items: center;
 }
 
-.todolist li div{
-    align-items: center;
-}
-
-.todolist li button{
-
-}
-
-
 img{
     width: 16px;
     height: 16px;
@@ -106,3 +97,4 @@ button.remove-button{
     width: 20px;
     height: 20px;
 }
+
